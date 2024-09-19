@@ -9,9 +9,7 @@ class PokemonDetailsView extends StatelessWidget {
   const PokemonDetailsView({super.key, required this.pokemon});
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(appBar: appBar, body: body);
-  }
+  Widget build(BuildContext context) => Scaffold(appBar: appBar, body: body);
 
   AppBar get appBar {
     return AppBar(
